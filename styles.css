@@ -1,0 +1,121 @@
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    left: 0;
+  }
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  }
+  
+  li {
+    margin-right: 10vw;
+    height: 100%;
+    
+  
+  }
+  .fa-headphones-simple {
+    margin-left: 20px;
+    margin-right: 5px;
+  }
+  #form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px
+  }
+  #email-input {
+    margin-bottom: 15px;
+  }
+  input[type="submit"] {
+    background-color: #FFAC00;
+    border: none;
+    font-weight: bold;
+  }
+  .values-grid > i {
+    color: orangered;
+    margin-right: 20px;
+  }
+  .values-grid {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 80%;
+    margin: 50px auto;
+    align-items: center;
+    row-gap: 50px;
+  }
+  .exlang > h3 {
+    margin: 0;
+  }
+  .exlang > p {
+    margin: 0;
+  }
+  .pricing {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 0 100px;
+  
+  }
+  .ttype {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0;
+  }
+  h4 {
+    margin-top: 0;
+    padding-top: 1.5vh;
+    background-color: gray;
+    width: 100%;
+    height: 4vh;
+    border-radius: 5px 5px 0px 0px;
+  }
+  .afterthought {
+    padding: 2vw;
+    padding-top: 0;
+  }
+  .footer {
+    margin: 30px auto -10px;
+    width: 70%;
+    background-color: #E8E8E8;
+    padding-bottom: 10px;
+  }
+  .clicks {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .clicks > p {
+    margin-right: 15px;
+  }
+  .footer > p {
+    text-align: right; 
+    margin-right: 20px;
+    margin-top: -10px;
+  }
+  iframe {
+    display: block;
+    margin: 50px auto;
+    scroll-margin-top: 150px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  img {
+    width: 80px;
+    height: 80px;
+  }
